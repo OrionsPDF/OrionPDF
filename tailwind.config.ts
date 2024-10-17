@@ -40,6 +40,13 @@ module.exports = {
         "title-sm2": ["22px", "28px"],
         "title-xsm": ["18px", "24px"],
       },
+
+      colors: {
+        primary: "#111110",
+        secondary: "#3872FA",
+        border: "#DBDBDB",
+      },
+
       spacing: {
         4.5: "1.125rem",
         5.5: "1.375rem",
@@ -127,6 +134,7 @@ module.exports = {
         230: "57.5rem",
         242.5: "60.625rem",
       },
+
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
