@@ -13,7 +13,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        <aside className="fixed w-[368px] h-full border-r border-r-border">
+          <h2>Overview</h2>
+          <ul>
+            <li></li>
+          </ul>
+        </aside>
+        {children}
+      </body>
     </html>
   );
 }
